@@ -16,7 +16,7 @@ export interface AppState {
 export function defaultSetting(): AppState {
   const supportLanguages: UnionToSet<Language> = ['zh-CN', 'en', 'zh-TW']
   const defaultLanguage = supportLanguages.find(lang => navigator.language.startsWith(lang)) || 'en'
-  return { siderCollapsed: false, theme: 'light', language: defaultLanguage }
+  return { siderCollapsed: false, theme: 'dark', language: defaultLanguage }
 }
 
 export function getLocalSetting(): AppState {
