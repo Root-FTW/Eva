@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { NText } from 'naive-ui'
 
-const appName = import.meta.env.VITE_APP_NAME
+const appName = 'EVA';
 </script>
 
 <template>
