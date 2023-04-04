@@ -53,7 +53,7 @@ async function setToken(token: string) {
   }
 }
 
-const appName = import.meta.env.VITE_APP_NAME
+const appName = 'EVA';
 </script>
 
 <template>
