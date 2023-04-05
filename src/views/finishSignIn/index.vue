@@ -72,7 +72,7 @@ onMounted(handleLogin)
       <h1 class="text-4xl md:text-5xl font-bold text-slate-600 dark:text-slate-100">
         {{ t("auth.welcomeBack") }}
       </h1>
-			<<p class="text-xl text-slate-500 dark:text-slate-200 font-light">
+			<p class="text-xl text-slate-500 dark:text-slate-200 font-light">
         Si no tienes acceso a la plataforma, por favor contáctame:
       </p>
       <a href="https://www.facebook.com/Jonathan.RootByte/" target="_blank" rel="noopener noreferrer">
