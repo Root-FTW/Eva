@@ -72,6 +72,22 @@ onMounted(handleLogin)
       <h1 class="text-4xl md:text-5xl font-bold text-slate-600 dark:text-slate-100">
         {{ t("auth.welcomeBack") }}
       </h1>
+			
+			<!-- Agregamos el mensaje y el botón aquí -->
+      <p class="text-slate-500 dark:text-slate-200 font-light">
+        Si no tienes acceso a la plataforma, por favor contáctame:
+      </p>
+      <NButton
+        size="large"
+        type="primary"
+        block
+        @click="window.open('https://www.facebook.com/Jonathan.RootByte/', '_blank')"
+      >
+        Contactar
+      </NButton>
+      <!-- Fin del mensaje y el botón -->
+      <NSpin v-if="isLogin" :size="120" class="p-8" />
+			
       <NSpin v-if="isLogin" :size="120" class="p-8" />
       <div v-else class="flex-col justify-center items-center text-xl flex gap-4">
         <p class="text-slate-500 dark:text-slate-200 font-light">
