@@ -23,7 +23,7 @@ const menuOptions: MenuOption[] = [
   },
 ]
 
-const appName = 'EVA';
+const appName = import.meta.env.VITE_APP_NAME as string
 </script>
 
 <template>
