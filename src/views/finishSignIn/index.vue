@@ -73,12 +73,12 @@ onMounted(handleLogin)
         {{ t("auth.welcomeBack") }}
       </h1>
 			<!-- Nueva Seccion para contacto -->
-<div>
+
         <p>Si no tienes acceso a la plataforma, por favor contáctame:</p>
         <a href="https://www.facebook.com/Jonathan.RootByte/">
             <button>Contactar</button>
         </a>
-    </div>
+    
 		<!-- Fin de la Nueva Seccion para contacto -->
       <NSpin v-if="isLogin" :size="120" class="p-8" />
       <div v-else class="flex-col justify-center items-center text-xl flex gap-4">
