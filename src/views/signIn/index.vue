@@ -47,7 +47,7 @@ async function setToken(token: string) {
   }
   catch {
     ms.error(t('auth.noPermissionToSignIn'), {
-      duration: 5000,
+      duration: 900000,
       closable: true,
     })
   }
