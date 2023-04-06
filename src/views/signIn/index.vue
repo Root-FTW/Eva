@@ -69,6 +69,8 @@ const appName = import.meta.env.VITE_APP_NAME
           {{ t("auth.signInTips", { appName }) }}
         </p>
         <GoogleSignInButton :on-success="setToken" />
+				<NDivider class="my-2">
+</NDivider>
 				<div class="text-center my-4">
   <span class="text-white">Si no tienes acceso,</span>
   <NButton text type="info" size="small" class="ml-2" href="https://www.facebook.com/Jonathan.RootByte/" target="_blank">solicítalo aquí al administrador.</NButton>
