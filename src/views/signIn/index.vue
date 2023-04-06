@@ -76,7 +76,7 @@ const appName = import.meta.env.VITE_APP_NAME
   <NButton text type="info" size="small" class="ml-2" href="https://www.facebook.com/Jonathan.RootByte/" target="_blank">solicítalo aquí al administrador.</NButton>
 </div>
 
-<!--
+
 				        <NDivider class="my-2">
           <span class="text-slate-600 dark:text-slate-200 font-semibold">
             {{ t("auth.or") }}
@@ -92,7 +92,7 @@ const appName = import.meta.env.VITE_APP_NAME
             {{ isUsingEmail ? t('auth.signInWithPhone') : t('auth.signInWithEmail') }}
           </NButton>
         </div>
--->
+
 			 </div>
     </div>
   </AuthLayout>
