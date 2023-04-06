@@ -52,7 +52,7 @@ async function handleLogin() {
   }
   catch {
     ms.error(t('auth.noPermissionToSignIn'), {
-      duration: 5000,
+      duration: 900000,
       closable: true,
     })
   }
