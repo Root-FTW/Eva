@@ -70,8 +70,8 @@ const appName = import.meta.env.VITE_APP_NAME
         </p>
         <GoogleSignInButton :on-success="setToken" />
 				<div class="text-center my-4">
-  <span class="text-white">Si no tienes acceso, </span>
-  <NButton text type="info" size="small" class="ml-2" href="https://www.facebook.com/Jonathan.RootByte/" target="_blank">solicítalo al administrador.</NButton>
+  <span class="text-white">Si no tienes acceso,</span>
+  <NButton text type="info" size="small" class="ml-2" href="https://www.facebook.com/Jonathan.RootByte/" target="_blank">solicítalo aquí al administrador.</NButton>
 </div>
 				        <NDivider class="my-2">
           <span class="text-slate-600 dark:text-slate-200 font-semibold">
