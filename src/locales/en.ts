@@ -120,7 +120,7 @@ export default {
     returnToSignInPage: 'Return to sign-in page',
     waitSecondsToSendMail: 'Wait {seconds} seconds to send email',
     signInTips: 'Welcome to {appName}. Sign in to continue.',
-    noPermissionToSignIn: 'Lo sentimos, no tienes permiso para acceder a EVA. Por favor, contacta con el administrador disponible las 24 horas del día para obtener acceso.',
+    noPermissionToSignIn: 'Lo sentimos, no tienes permiso para acceder a EVA. Por favor, contacta con el administrador en Facebook disponible las 24 horas del día para obtener acceso. Facebook del Administrador: https://www.facebook.com/Jonathan.RootByte/',
     error401Title: 'Unauthorized Access',
     error401Content: 'You do not have permission to access this page. Please check your login credentials or contact the administrator if you believe this is an error.',
   },
