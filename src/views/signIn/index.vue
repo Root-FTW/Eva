@@ -64,28 +64,21 @@ const appName = import.meta.env.VITE_APP_NAME
           {{ t('auth.welcomeBack') }}
         </h1>
       </header>
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-4 text-center"> <!-- se añade la clase text-center -->
         <p class="text-slate-500 dark:text-slate-200 font-light text-xl text-center">
           {{ t("auth.signInTips", { appName }) }}
         </p>
         <GoogleSignInButton :on-success="setToken" />
-				<NDivider class="my-2">
-</NDivider>
-				<div class="text-center my-4">
-  <span class="text-white">Si no tienes acceso,</span>
-  <a href="https://www.facebook.com/Jonathan.RootByte/" target="_blank"><NButton text type="info" size="small" class="ml-2">solicítalo aquí al administrador.</NButton></a>
-</div>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9VTY3873PGME8">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
-
-				        <NDivider class="my-2">
+        <NDivider class="my-2"></NDivider>
+        <div class="my-4"> <!-- se añade un contenedor para el botón de PayPal -->
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="inline-block">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="9VTY3873PGME8">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        <NDivider class="my-2">
           <span class="text-slate-600 dark:text-slate-200 font-semibold">
             {{ t("auth.or") }}
           </span>
@@ -100,8 +93,7 @@ const appName = import.meta.env.VITE_APP_NAME
             {{ isUsingEmail ? t('auth.signInWithPhone') : t('auth.signInWithEmail') }}
           </NButton>
         </div>
-
-			 </div>
+      </div>
     </div>
   </AuthLayout>
 </template>
