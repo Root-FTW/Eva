@@ -1,4 +1,3 @@
-<!-- 
 <div style="font-size: 1.5rem;">
   中文 | <a href="./README.en.md">English</a>
 </div>
@@ -42,4 +41,3 @@ GPTeams 是一个专为 ChatGPT 定制的基于 OpenAI API 的第三方客户端
 
 ## License
 MIT © [Astra Surge](./license)
--->
