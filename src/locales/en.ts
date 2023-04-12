@@ -121,7 +121,7 @@ export default {
     finishSignInTo: 'Finish Sign In to {0}',
     finishSignIn: 'Finish Sign In',
     finishSignInRequiredEmailTips: 'Opened link in another browser? Re-enter your email to complete sign-in.',
-    welcomeBack: 'Welcome Back Pilot',
+    welcomeBack: 'Enhanced Virtual Assistant',
     returnToSignInPage: 'Return to sign-in page',
     waitSecondsToSendMail: 'Wait {seconds} seconds to send email',
     signInTips: 'Welcome to {appName}. Sign in to continue.',
